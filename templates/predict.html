@@ -1,0 +1,345 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+   
+}
+.white{
+  width:100%;
+  background-image: url('https://parklandhealthplan.com/media/h0omwrtp/diabetes-with-insulin-syringe-lancet-test-strip-glucose-meter-and-lancing-device-on-isolated-715778998-2.jpg?anchor=center&mode=crop&width=1600&height=806');
+  height: 700px;
+
+ display: block;
+ 
+  
+ 
+}
+
+
+
+    
+ul{
+   
+    list-style: none;
+    text-decoration: none;
+    
+
+
+}
+div li{
+   
+    
+    margin:40px;
+}
+
+div ul li a{
+    text-decoration: none;
+   
+
+    
+} 
+@media(min-width:1200px){
+    .lg-1{
+        box-sizing: border-box;
+    width:45%;
+    float:left;
+    margin-left: 0%;
+    scale: 0.5 em;
+}
+    .bar-l{width:55%;
+        box-sizing: border-box;
+        float: left;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style:normal;
+        font-weight: 100;
+       font-size: 22px;
+        
+    }
+    .l{
+        float: left;
+    }
+    .lar{
+        float: right;
+    padding-top: 45px;
+    
+    font-family: URW Chancery L, cursive;
+    font-style: cursive;
+    font-weight: 200;
+    
+    font-size: 24px;
+    color: rgb(64, 176, 224);
+    }
+    .ll{
+        height: 100px;
+    }
+
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+    .md-1{
+        box-sizing: border-box;
+        width:95%;
+        
+        scale: 0.4 em;
+       
+        
+    }
+    .bar-md{
+        font-weight: bolder;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style:normal;
+        font-weight: 200;
+       font-size: 30px;
+        
+       
+
+    }
+    .m{
+        float: left;
+       
+    }
+    .med{
+       
+        float: right;
+    padding-top: 45px;
+    
+    font-family: URW Chancery L, cursive;
+    font-style: cursive;
+    font-weight: 200;
+    
+    font-size: 24px;
+    color: rgb(64, 176, 224);
+
+    
+    }
+    .mm{
+        height: 150px;
+    }
+}
+@media (max-width: 999px) {
+    .s-1{
+       
+        width:95%;
+        scale:0.9em;
+        clear: both;
+
+        
+    }
+    .bar-s{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style:normal;
+        font-weight: 200;
+       font-size: 30px;
+       clear: both;
+       
+}
+
+.s{
+    clear: both;
+}
+.sm{
+    clear: both;
+    padding-top: 45px;
+    
+    font-family: URW Chancery L, cursive;
+    font-style: cursive;
+    font-weight: 200;
+    
+    font-size: 24px;
+    color: rgb(64, 176, 224);
+   
+    
+
+}
+.ss{
+    height: 300px;
+}
+
+
+}
+div{
+    font-family: URW Chancery L, cursive;
+    font-style: cursive;
+    font-weight: 200;
+    
+    font-size: 24px;
+    color: rgb(64, 176, 224);
+}
+
+#form{
+    width: 100%;
+    margin: auto;
+}
+#main{
+    
+    width: 50%;
+    margin: auto;
+   
+}
+.preg{
+   margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    
+ 
+    
+
+    
+}
+.just{
+   float: left;
+   padding-top: 10px;
+    padding-left: 10px;
+    
+   
+   
+
+
+
+}
+span{
+    height: 20px;
+}
+.text{
+float: left;
+padding-left: 8px;
+    padding-top: 8px;
+    margin-right: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style:normal;
+        font-weight: 100;
+       font-size: 28px;
+       color: indianred;
+      
+}
+#radio{
+   
+    float: right;
+    padding-top: 35px;
+    margin-right: 50px;
+    
+}
+input[type="text"] {
+  width: 150px; /* Set the width of the input */
+  
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 4px; /* Add rounded corners */
+  
+
+  
+  font-family: URW Chancery L, cursive;
+    font-style: cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: darkslategray;
+    
+}
+#w{
+    float: left;
+padding-left: 8px;
+    padding-top: 8px;
+    margin-right: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style:normal;
+        font-weight: 100;
+       font-size: 15px;
+       color: indianred;
+}
+.button{
+    width: 119px;
+    height: 45px;
+    margin-top: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style:normal;
+        font-weight: 100;
+       font-size: 15px;
+       color:blueviolet;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+    <section class="white">
+        <div  ><img src="https://worlddiabetesday.org/es/wddbrk/wp-content/uploads/2023/04/wdd_logos_2023-ES.png" alt="image logo" id="logo" class="lg-1 md-1 s-1" >
+       
+</div>
+        <div id="bar" class="bar-l bar-md bar-s">
+            <ul  >
+                <li class="l m s"><a href="./">Cases</a></li>
+                <li class="l m s"><a href="./">Consultancy</a></li>
+                <li class="l m s"><a href="./">Blog</a></li>
+                <li class="l m s"><a href="./">Contact Us</a></li>
+            </ul>
+        </div>
+    </section>
+    <div id="main">
+    <form action="result">
+        
+        <div   class="preg ss mm ll">
+            <img src="https://th.bing.com/th/id/R.5e67f3f2abc17800ca5e81ac1bb0679f?rik=0vGE3rGTEqq8PA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fbaby-in-womb-png-baby-womb-fetal-development-human-fetus-motherhood-pregnancy-icon-512.png&ehk=bw7ZLzs8wbpu33cQmGFC2Dgafp2SyaT0v0cTePuo6m8%3d&risl=&pid=ImgRaw&r=0" class=" just" alt="image"height="79px" >
+            <p class="text">Pregnant </p>
+            <div id="radio" class="sm med lar"><input  type="text" name="n1"placeholder="Enter here"></div>
+        </div>
+        <div  class="preg ss mm ll">
+            <img src="https://i.pinimg.com/originals/07/55/a6/0755a6975e8010cf7b4956d5207db006.jpg"class="just img" alt="image"height="89px">
+            <p class="text">Glucose </p>
+            <div id="radio" class="sm med lar"> <input  type="text" name="n2"placeholder="Enter here"> 
+        </div>
+    </div>
+    <div  class="preg ss mm ll">
+        <img src="https://cdn.dribbble.com/users/398490/screenshots/2632793/pump.gif"class="just img" alt="image"height="89px"width="89px">
+        <p class="text">Blood Pressure </p>
+        <div id="radio" class="sm med lar"> <input  type="text" name="n3"placeholder="Enter here"> 
+    </div>
+</div>
+<div  class="preg ss mm ll">
+    <img src="https://www.aveeno.com/sites/aveeno_us_2/files/threemainlayerofthehuman_793071.jpg"class="just img" alt="image"height="89px"width="99px">
+    <p class="text">Skin Thickness </p>
+    <div id="radio" class="sm med lar"> <input  type="text" name="n4"placeholder="Enter here"> 
+</div>
+</div>
+<div  class="preg ss mm ll">
+    <img src="https://th.bing.com/th/id/OIP.eyRuGcsOlbKfDbbJqfgs3wHaFj?w=1140&h=855&rs=1&pid=ImgDetMain"class="just img" alt="image"height="89px">
+    <p class="text">Insulin </p>
+    <div id="radio" class="sm med lar"> <input  type="text" name="n5"placeholder="Enter here"> 
+</div>
+</div>
+<div  class="preg ss mm ll">
+    <img src="https://th.bing.com/th/id/OIP.MVws6nCa1kCZhVPnJzdkQwAAAA?w=450&h=320&rs=1&pid=ImgDetMain"class="just img" alt="image"height="79px">
+    <p class="text">BMI </p>
+    <div id="radio" class="sm med lar"> <input  type="text" name="n6"placeholder="Enter here"> 
+</div>
+</div>
+<div  class="preg ss mm ll">
+    <img src="https://miro.medium.com/v2/resize:fit:960/1*8i09p1oersC64HVATSjG-Q.jpeg"class="just img" alt="image"height="95px">
+    <p id ="w"class="text">Diabetes Pedigree Function</p>
+    <div id="radio" class="sm med lar"> <input  type="text" name="n7"placeholder="Enter here"> 
+</div>
+</div>
+<div  class="preg ss mm ll">
+    <img src="https://th.bing.com/th/id/OIP.6_2FmSZEHw5BzkrrpSz6NQHaHa?rs=1&pid=ImgDetMain"class="just img" alt="image"height="95px">
+    <p class="text">Age</p>
+    <div id="radio" class="sm med lar"> <input  type="text" name="n8"placeholder="Enter here"> 
+</div>
+</div>
+<input type="submit" value="PREDICT" class="button">
+
+    </form>
+    <div class="row">
+        <h2><em>{{result2}}</em></h2>
+    </div>
+</div>
+</body>
+</html>
